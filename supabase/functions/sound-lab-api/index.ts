@@ -57,4 +57,3 @@ Deno.serve(async(req)=>{
   return reply({error:'不支援的操作'},400);
  }catch(e){console.error(e);return reply({error:'後端處理失敗，請檢查資料庫遷移及函式日誌'},500)}
 });
-
